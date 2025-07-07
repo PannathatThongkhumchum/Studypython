@@ -1,0 +1,12 @@
+def find_multiples_of_three(start, end):
+    wong = []
+    for i in range(start, end +1):
+        if i % 3 == 0:
+            wong.append(i)
+    return wong
+
+start = 1
+end = 1000
+sum = find_multiples_of_three(start, end)
+
+print(sum)
