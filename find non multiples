@@ -1,0 +1,12 @@
+def find_non_multiples(start, end):
+    wong = []
+    for i in range (start, end):
+        if i %3 >= 1 and i%4 >=1 and i%5 >=1:
+            wong.append(i)
+    return wong
+
+start = 1
+end = 1000
+sum = find_non_multiples(start,end)
+
+print(sum)
