@@ -1,0 +1,12 @@
+def find_multiples_of_three_and_four(start, end):
+    wong = []
+    for i in range (start, end):
+        if i%12 == 0:
+            wong.append(i)
+    return wong
+
+start = 1
+end = 1000
+sum = find_multiples_of_three_and_four(start, end)
+
+print(sum)
