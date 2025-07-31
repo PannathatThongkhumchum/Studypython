@@ -1,0 +1,10 @@
+menu = ["pizza","burger","salad"]
+print(f"Initial food: {menu}")
+new_menu = "pasta"
+menu.append(new_menu)
+print(f"After adding pasta{menu}")
+menu.remove("salad")
+print(f"After removing salad{menu}")
+menu.sort()
+print(f"Sorted foods: {menu}")
+print("Total food: ", str(len(menu)))
